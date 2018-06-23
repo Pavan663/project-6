@@ -3,9 +3,9 @@ About:
 This is the Udacity project 6 about the Configuring the Linux the server.
 
 Server Details:
-Server IP Address 13.127.33.67.xip.io
+Server IP Address 13.127.121.235.xip.io
 
-Hosted site Url http://13.127.33.67.xip.io/
+Hosted site Url http://13.127.121.235.xip.io/
 
 Grader Password:
 unix

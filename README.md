@@ -9,17 +9,10 @@ Hosted site Url http://13.127.121.235.xip.io/
 
 Grader Password:
 unix
-
-Grader Key:
------BEGIN RSA PRIVATE KEY----- AAABAQCSCqFPwISafsqe4pwbmGtyrgJ76ScpNstWINfip2KxKx7FVKgQkFDixBlc 7Z4oA1dL3nEKLyo+cSeyqv1P83up9ScukOMEuH5GZKUnml0mbjHw+SFh0MuZdq+4 hTSY9AHfZEvqUr3c5ii0LjL9q0lFPZKS3wjlMNp9IZcPJVLpF1cfkVz4P+z1ZgOE s6jp0m8JCV12IB9XogdrhWrVZ+clgc5RE/XGwCpVluv/gAf2D/fSCkPe9hGqbN5U rOGIRYrKHacO/jlGIqCfQ7I5X7O0wa5mas70XRflG4osjXWnJ9E3PfsLKIiUNKFC wSY1m7IsnbrpJyR7mWBPKxrMCTSxAAAAgQDJq32eoV+HZCra1K1f0eY1u9lmIXQX bgYIQnMmx8LPj6crlnkIlBEk/s70pX6zRLBZ75sucrESza19UzIGuYCcPGS/MVlu cRW8MrOiwi6pW9huIHYka+O+klorvWZobYeS8Ca+DieX5/bi1KkCoDQKUN8b9plE uJOTOrCVgNPNfQAAAIEAyReiNTenhm9XsTFVPAQA0tf0R3iDQDV+w9qr7cDgRJ1h +Nk3l3WPKdvvv3DwSV4soTM0HMCwVt5lC9SNjNOyQeEChTvbvEhn4534JX2ByBuF bwfsal3vLtD47WDstb5RhfM6AqzuJOxYb1f6iX5JlQpsPErNwTVlOxPdSrCy6ysA AACBAIVOGs4F73onJ+dbwQnKJLQFtC9vwlHPvaMnYAbj4QL9ZXYusVUlSviSHDMY Lrfu5B9z9R1qLRp+SAAG3OSGbvxoZ/IYliGNq+QywaGS1jfhC0uZrw1ZmEpNnJHs U28a5Bt72mO2hRxJ/qOW+8VPa1OTjy5NgTKPzwHRVN3TXvLf == -----END RSA PRIVATE KEY-----
-
-id_rsa.pub key:
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJLKqb78qvz9QHdJWiLkvryqO1BfcXQkpP0q0JmfVLFFeX4fb7P3CDnf4ACVYC4PJ+qFT40rCLLFAJLgvSCViQsanwhclceEriH8smjkGfTMigRYcXxyW/wQMbjdGYbxnXc+8v/eVvVLnLHlrhFn+13iafGxlAfF6XLGV30S4g6/jEiZDg8YrxmsmfiGvKgplH67eT1qXF86Mff/Kb75JQWenJK7U1GoJ/v6Im+wOj+4GJgc6JcJeTRgWfk3J7HZdV+qieQMRPGh6Kwm3pQj+EDJ3TAc26lackrTZnQbcRL3IYtdjLedLDngQEz5IdrJozt34nzYLu9ZFMROYFuJLh
-
 How to connect as grader:
 save private key provided in your local machine and run the following command
 
-ssh -i path/to/privatekey -p grader@13.127.33.67
+ssh -i path/to/privatekey -p grader@13.127.121.235
 
 Configuring Linux Server:
 Updating all packages:
@@ -27,7 +20,6 @@ Updating all packages:
 sudo apt-get update
 
 sudo apt-get upgrade
-
 Creating grader User:
 sudo adduser grader
 
